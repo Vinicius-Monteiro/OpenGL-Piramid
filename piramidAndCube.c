@@ -20,15 +20,15 @@ void reshape (int w, int h);
 #define BRANCO	 1.0, 1.0, 1.0
 
 static GLfloat vertices[27]={
-  0.0,  30.0, 30.0, /* 0 */ // left top front
-  30.0, 30.0, 30.0, /* 1 */ // right top front
-  30.0,  0.0, 30.0, /* 2 */ // right bot front
-  0.0,   0.0, 30.0, /* 3 */ // left bot front
-  0.0,  30.0,  0.0, /* 4 */ // left top back
-  30.0, 30.0,  0.0, /* 5 */ // right top back
-  30.0,  0.0,  0.0, /* 6 */ // right bot back
-  0.0,   0.0,  0.0, /* 7 */ // left bot back
-  15.0, 45.0, 15.0, /* 8 */ // middle top middle
+	0.0,  30.0, 30.0, /* 0 */ // left top front
+	30.0, 30.0, 30.0, /* 1 */ // right top front
+	30.0,  0.0, 30.0, /* 2 */ // right bot front
+	0.0,   0.0, 30.0, /* 3 */ // left bot front
+	0.0,  30.0,  0.0, /* 4 */ // left top back
+	30.0, 30.0,  0.0, /* 5 */ // right top back
+	30.0,  0.0,  0.0, /* 6 */ // right bot back
+	0.0,   0.0,  0.0, /* 7 */ // left bot back
+	15.0, 45.0, 15.0, /* 8 */ // middle top middle
 };
 
 
